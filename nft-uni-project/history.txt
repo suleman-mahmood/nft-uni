@@ -1,0 +1,8 @@
+#V2
+(contract-call? .exact mint! STFCVYY1RJDNJHST7RRTPACYHVJQDJ7R1DWTQHQA 100 LUMS Suleman BS-CS)
+(contract-call? .exact mint! "STFCVYY1RJDNJHST7RRTPACYHVJQDJ7R1DWTQHQA" 100 LUMS Suleman BS-CS)
+::help
+(contract-call? .exact mint! tx-sender 100 "LUMS" "Suleman" "BS-CS")
+(contract-call? .exact mint! tx-sender u100 "LUMS" "Suleman" "BS-CS")
+::get_block_height
+(contract-call? .exact owner-of? u100)

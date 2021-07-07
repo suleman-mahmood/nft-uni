@@ -39,7 +39,7 @@
 )
 
 ;; Mint new tokens
-(define-private (mint! 
+(define-public (mint! 
   (owner principal) 
   (token-id uint) 
   (university-name (string-ascii 100)) 
@@ -81,9 +81,9 @@
 )
 
 ;; Initialize the contract
-(begin
-  (unwrap! 
-    (mint! 'ST398K1WZTBVY6FE2YEHM6HP20VSNVSSPJTW0D53M u1000 "LUMS" "Suleman" "BS-CS") 
-    false
-  )
-)
+;; (begin
+;;   (unwrap! 
+;;     (mint! 'ST398K1WZTBVY6FE2YEHM6HP20VSNVSSPJTW0D53M u1000 "LUMS" "Suleman" "BS-CS") 
+;;     false
+;;   )
+;; )
