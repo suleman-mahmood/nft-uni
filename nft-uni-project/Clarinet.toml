@@ -1,0 +1,6 @@
+[project]
+name = "nft-uni-project"
+requirements = []
+[contracts.exact]
+path = "contracts/exact.clar"
+depends_on = []
